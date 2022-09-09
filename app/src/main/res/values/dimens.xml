@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name = "textViewWidth">200dp</dimen>
-    <dimen name = "textViewHeight">300dp</dimen>
+    <dimen name = "textViewWidth">100dp</dimen>
+    <dimen name = "textViewHeight">90dp</dimen>
     <dimen name = "fontSize">30sp</dimen>
-    <dimen name = "fontSmall">15sp</dimen>
+    <dimen name = "fontSmall">11sp</dimen>
+    <dimen name = "editTextHeight">50dp</dimen>
+    <dimen name = "editTextWidth">315dp</dimen>
 </resources>
 
 
