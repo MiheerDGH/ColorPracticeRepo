@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name = "textViewWidth">200dp</dimen>
-    
+    <dimen name = "textViewHeight">300dp</dimen>
+    <dimen name = "fontSize">30sp</dimen>
+    <dimen name = "fontSmall">15sp</dimen>
 </resources>
 
 
