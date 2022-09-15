@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    style
     <TextView
         android:id="@+id/TextView"
         android:layout_width="@dimen/textViewWidth"
@@ -22,7 +22,7 @@
         android:id="@+id/button1"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
-        android:text="Saul Goodman"
+        android:text="Miheer"
         android:textSize="@dimen/fontSmall"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
         android:textSize="@dimen/fontSmall"
-        android:text="NAV"
+        android:text="John Adams"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
