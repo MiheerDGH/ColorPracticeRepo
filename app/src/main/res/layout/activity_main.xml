@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<<<<<<< HEAD
     <TextView
         android:id="@+id/TextView"
         android:layout_width="@dimen/textViewWidth"
@@ -30,6 +31,40 @@
         android:gravity="bottom"
         android:textSize="@dimen/fontSmall"
         android:textColor="@color/white"
+=======
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/marginT"
+        android:gravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        >
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="@dimen/marginL"
+            android:hint="Who's better?:"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miheer"
+        android:textSize="@dimen/fontSmall"
+        android:textColor="@color/white"
+
+        android:padding="@dimen/padding"
+        android:layout_marginBottom="@dimen/marginB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.189"
@@ -47,13 +82,31 @@
         android:text="NAV"
         android:gravity="bottom"
         android:textColor="@color/white"
+<<<<<<< HEAD
+=======
+        android:gravity="top"
+        android:layout_marginBottom="@dimen/marginB"
+>>>>>>> 6ec7fb07912bc339977da6556804a60f8fd45548
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.713"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.166" />
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Miheer is here"
+            android:layout_marginTop="@dimen/marginT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.587" />
 
+<<<<<<< HEAD
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="@dimen/editTextWidth"
@@ -70,3 +123,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.38" />
 </LinearLayout>
+=======
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 6ec7fb07912bc339977da6556804a60f8fd45548

@@ -6,11 +6,19 @@
         <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
         <item name="colorOnPrimary">@color/primaryLightColor</item>
     </style>
+<<<<<<< HEAD
         <!-- Secondary brand color. -->
     <style name="Theme.ColorSecondary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
         <item name="colorOnSecondary">@color/secondaryLightColor</item>
+=======
+    <style name="Theme.ColorSecondary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">\
+        <!-- Secondary brand color. -->
+        <item name="colorPrimary">@color/secondaryColor</item>
+        <item name="colorPrimaryVariant">@color/secondaryDarkColor</item>
+        <item name="android:textColor">@color/secondaryLightColor</item>
+>>>>>>> 6ec7fb07912bc339977da6556804a60f8fd45548
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
