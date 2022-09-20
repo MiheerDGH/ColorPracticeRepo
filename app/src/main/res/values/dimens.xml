@@ -6,8 +6,9 @@
     <dimen name = "fontSmall">11sp</dimen>
     <dimen name = "editTextHeight">50dp</dimen>
     <dimen name = "editTextWidth">315dp</dimen>
-    <dimen name = "padding">3dp</dimen>
-    <dimen name = "marginB">10dp</dimen>
+    <dimen name = "padding">60dp</dimen>
+    <dimen name = "marginB">20dp</dimen>
+    <dimen name = "marginL">15dp</dimen>
     <dimen name = "marginT">20dp</dimen>
 
 </resources>
