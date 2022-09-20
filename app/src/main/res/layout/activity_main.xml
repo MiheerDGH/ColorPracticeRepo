@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/TextView"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
         android:text="I am Miheer"
+        android:paddingBottom="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.453"
@@ -22,7 +24,10 @@
         android:id="@+id/button1"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="30dp"
         android:text="Saul Goodman"
+        android:gravity="bottom"
         android:textSize="@dimen/fontSmall"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +42,10 @@
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
         android:textSize="@dimen/fontSmall"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="30dp"
         android:text="NAV"
+        android:gravity="bottom"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +60,8 @@
         android:layout_height="@dimen/editTextHeight"
         android:ems="10"
         android:inputType="textPersonName"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="13dp"
         android:text="Who's better?:"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,5 +69,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.38" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
