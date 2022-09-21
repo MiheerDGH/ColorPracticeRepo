@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-<<<<<<< HEAD
-    <TextView
-        android:id="@+id/TextView"
-        android:layout_width="@dimen/textViewWidth"
-        android:layout_height="@dimen/textViewHeight"
-        android:text="I am Miheer"
-        android:paddingBottom="40dp"
-        android:gravity="center"
-        android:layout_marginBottom="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/marginT"
+    android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="@dimen/textViewWidth"
-        android:layout_height="@dimen/textViewHeight"
-        android:layout_marginBottom="30dp"
-        android:paddingBottom="30dp"
-        android:text="Saul Goodman"
-        android:gravity="bottom"
-        android:textSize="@dimen/fontSmall"
-        android:textColor="@color/white"
-=======
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/marginT"
-        android:gravity="center_horizontal"
-        tools:ignore="MissingConstraints"
-        >
-        <EditText
+
+
+
+    <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
@@ -59,12 +31,13 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Miheer"
-        android:textSize="@dimen/fontSmall"
-        android:textColor="@color/white"
-
-        android:padding="@dimen/padding"
+        android:ems="10"
         android:layout_marginBottom="@dimen/marginB"
+        android:padding="@dimen/padding"
+        android:text="Miheer"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontSmall"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.189"
@@ -74,56 +47,31 @@
 
     <Button
         android:id="@+id/buttonDos"
-        android:layout_width="@dimen/textViewWidth"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/textViewHeight"
-        android:textSize="@dimen/fontSmall"
         android:layout_marginBottom="30dp"
         android:paddingBottom="30dp"
-        android:text="NAV"
+        android:theme="@style/ButtonCustom"
+        android:text="John Adams"
+        android:layout_gravity="center_horizontal"
         android:gravity="bottom"
-        android:textColor="@color/white"
-<<<<<<< HEAD
-=======
-        android:gravity="top"
-        android:layout_marginBottom="@dimen/marginB"
->>>>>>> 6ec7fb07912bc339977da6556804a60f8fd45548
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        android:textColor="@color/white"/>
+
         <TextView
             android:id="@+id/TextView"
             android:layout_width="@dimen/textViewWidth"
             android:layout_height="@dimen/textViewHeight"
             android:text="Miheer is here"
             android:layout_marginTop="@dimen/marginT"
+            android:layout_gravity="center_horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
+            android:theme="@style/TextViewCustom"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.453"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.587" />
 
-<<<<<<< HEAD
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="@dimen/editTextWidth"
-        android:layout_height="@dimen/editTextHeight"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:layout_marginBottom="30dp"
-        android:paddingBottom="13dp"
-        android:text="Who's better?:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+
+
 </LinearLayout>
-=======
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> 6ec7fb07912bc339977da6556804a60f8fd45548
